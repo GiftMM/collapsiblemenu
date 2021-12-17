@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<htm>
+<head>
+
+    <title>Menu</title>
+
+    <style>
+
+        .menu{
+            display: block;
+            position: absolute;
+            background-color: #fcba03;
+            height: 100%;
+            top: 0px;
+            left: -85px;
+       
+        }
+
+        .menu:hover{
+            left: 0;
+        }
+
+        .menu-items{
+            display: block;
+            text-align: center;
+            padding: 15px 35px 15px 35px;
+            position: relative; 
+           
+               
+            
+        }
+
+        .menu-items:hover{
+            background-color: #e8e3d5;
+        }
+
+
+        .dropdown{
+            
+                display: none;
+                background-color: #d4c7a5;
+                position: absolute;
+                top: 0px;
+                left: 116px;
+                float: right;
+                
+
+        }
+
+        
+
+        .menu-items:hover .dropdown{
+                    display: block;
+                    
+                        }
+
+
+        .dropdown-items{
+                padding: 15px 35px 15px 35px;
+                white-space: nowrap;
+                text-align: center;
+                
+
+        }
+
+        .dropdown-items:hover{
+            background-color: rgb(216, 215, 215);
+        }
+
+        .dropdown-items a{
+            background-color: none;
+            text-decoration: none;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="menu">
+            <div class="menu-items">Cars
+                <div class="dropdown">
+                    <div class="dropdown-items"><a href="https://en.wikipedia.org/wiki/Toyota_Land_Cruiser">Land Cruiser
+                        </a></div>
+
+                    <div class="dropdown-items"><a href="https://en.wikipedia.org/wiki/Ford_Ranger">Ford Ranger</a></div>
+
+                    <div class="dropdown-items"><a href="https://en.wikipedia.org/wiki/Nissan_Navara">Nissan Navara</a></div>
+                </div>
+            </div>
+            
+            <div class="menu-items">Fruits
+                <div class="dropdown">
+                    <div class="dropdown-items">Mango</div>
+                    <div class="dropdown-items">Apple</div>
+                    <div class="dropdown-items">Orange</div>
+                </div>
+            </div>
+
+
+            <div class="menu-items">Planets
+               <div class="dropdown">
+                    <div class="dropdown-items">Earth</div>
+                    <div class="dropdown-items">Venus</div>
+                    <div class="dropdown-items">Neptune</div>
+                </div>
+                
+            </div>
+
+    </div>
+
+</body>
+
+</htm>
